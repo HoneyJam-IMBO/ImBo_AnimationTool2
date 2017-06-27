@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CDirectXFramework" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFYAADREIikEAACICAUAKAIRAgIoEAhIABkRBIACAhY=</HashCode>
+      <FileName>DirectXFramework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScene" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAQAgAAAAAAAAAAAAQAAAAgEAAAABAABAAAAAg=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSceneMain" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kBIRCHAAAiSBCIAQAUAQAASEAYEgMAAACBAABEAkcFQ=</HashCode>
+      <FileName>SceneMain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXObject" Collapsed="true">
+    <Position X="37" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABICAAAABAAAgAAAAAAEAAAAAAAgEABAAAAAABAAAAA=</HashCode>
+      <FileName>DXObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCamera" Collapsed="true">
+    <Position X="37" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABBAABKYFFDAQAAEEgAAAkAAokgAEAhCAABIUEAY=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFreeCamera" Collapsed="true">
+    <Position X="38" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAABAACAAAABAAEAAAAEAAgEAAAABAAABAAAAA=</HashCode>
+      <FileName>FreeCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThirdPersonCamera" Collapsed="true">
+    <Position X="36.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYAAAAABAIAAAAAAAAEAAAAEAAgEAAAABAAABAAAAA=</HashCode>
+      <FileName>ThirdPersonCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnimateContainer" Collapsed="true">
+    <Position X="39.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAABAAIAAAgAAAECAQgJAAAEAABAAAAABAAAAA=</HashCode>
+      <FileName>AnimateContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestAnimateContainer" Collapsed="true">
+    <Position X="39.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAAAAAAAGAAQAAAAAEAAAAAAAABAAAEA=</HashCode>
+      <FileName>TestAnimateContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenderContainer" Collapsed="true">
+    <Position X="33" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEACIABIEAEAIoQAAECAAAJCAAEAAFBBAAQRAACUQ=</HashCode>
+      <FileName>RenderContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShader" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIABAAAAAEAAAAAAAAAAAAAkAAAAAAAABAAAAA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenderShader" Collapsed="true">
+    <Position X="25.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIJgIIABAAACBAAAAAECAgAAgCAEAUgAQAAABAQAAA=</HashCode>
+      <FileName>RenderShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CComputeShader" Collapsed="true">
+    <Position X="27.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAABBAAAAQIAAAECAAAAARgGAQAARACABAQQQA=</HashCode>
+      <FileName>ComputeShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDownScaleFirstPassShader" Collapsed="true">
+    <Position X="26" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQgAAoDhAAAAAKAAAUCAAAZBAAAAQEQBACAAAAAAA=</HashCode>
+      <FileName>DownScaleFirstPass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDownScaleSecondPassShader" Collapsed="true">
+    <Position X="27.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAABABAAAAAKAAAkCAAAgAAAAAAAAQADAAQAABQ=</HashCode>
+      <FileName>DownScaleSecondPass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCSBloom" Collapsed="true">
+    <Position X="29.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAABAAAAEIACAECAAAAAAEQAAAAFACAAAAAAA=</HashCode>
+      <FileName>CSBloom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCSHorizontalBlur" Collapsed="true">
+    <Position X="26.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAABAAAAEIACAECAgAAAAAAAAAAFACAAAAAAA=</HashCode>
+      <FileName>CSHorizontalBlur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCSVerticalBlur" Collapsed="true">
+    <Position X="28.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAABACAAAJAAAUCAAEAAAAAAAIABACAAAAAAA=</HashCode>
+      <FileName>CSVerticalBlur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSampler" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAABAAQABAAAEgEAAACAAAAEAAAAAAAABAAAAA=</HashCode>
+      <FileName>Sampler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAFAAEFAAQABAEAIACAgAAGAAAAgAIARAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMaterial" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAABAAAAAAAAACEAAAAAAAAEAAEAAAAQBAAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenderContainerSeller" Collapsed="true">
+    <Position X="35" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACMAkCkAAAYICAgQgEAERBABAQAQkB4CIACIQACEAGA=</HashCode>
+      <FileName>RenderContainerSeller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBuffer" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIAABBAAAAAIAIQEEZCAAAAgECACAIMAABAIABA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CConstantBuffer" Collapsed="true">
+    <Position X="22.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAACAAAEEAAACAAACEAAAAAAAABAAABA=</HashCode>
+      <FileName>ConstantBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInstanceBuffer" Collapsed="true">
+    <Position X="24" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAAAAAAAEAAEAQAQAEAAAAAAAABAAAAA=</HashCode>
+      <FileName>InstanceBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLayer" Collapsed="true">
+    <Position X="34" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAABAAAQAQQAAAEACAAAAAAEAAAABAAABgAAQA=</HashCode>
+      <FileName>Layer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLightLayer" Collapsed="true">
+    <Position X="35.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIKAAAARMIAgAQAAEAFAAAAQACAEAAAAAAAABAAAQA=</HashCode>
+      <FileName>LightLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObjectLayer" Collapsed="true">
+    <Position X="33.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAACAAQAAAAEEAAAABAAEAAAAACAABAAAQA=</HashCode>
+      <FileName>ObjectLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPostProcessingLayer" Collapsed="true">
+    <Position X="37" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAMAAAQABBEAAAwCBAIEQAAABABAEAAkQAAAADAACQA=</HashCode>
+      <FileName>PostProcessingLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMesh" Collapsed="true">
+    <Position X="29.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQYAABQAAEAAAAAAAAASAAKIBHAACDVGACBFAAxA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAmbientLightMesh" Collapsed="true">
+    <Position X="26.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIBAAAAAEAAAAAAAAAAABBAAAAAQAEABAAAUA=</HashCode>
+      <FileName>AmbientLightMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDirectionalLightMesh" Collapsed="true">
+    <Position X="32" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABACAAAAAAAAAAAAAAAABAAAAAQAAABAAAQA=</HashCode>
+      <FileName>DirectionalLightMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPointLightMesh" Collapsed="true">
+    <Position X="28.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAABAgAAAQAAARAAAQA=</HashCode>
+      <FileName>PointLightMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCapsuleLightMesh" Collapsed="true">
+    <Position X="32" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAEAAAAAAABAAAAAUAAABAAAQA=</HashCode>
+      <FileName>CapsuleLightMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSpotLightMesh" Collapsed="true">
+    <Position X="30.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAACAAAAAAAAAAABIAAAAQAAABAAAQA=</HashCode>
+      <FileName>SpotLightMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdaptorMesh" Collapsed="true">
+    <Position X="32" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAABAEAAAAAAAAAAAABAAAAAQAEABAAAwA=</HashCode>
+      <FileName>AdaptorMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoostMesh" Collapsed="true">
+    <Position X="30.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAACAAEAAAAAAAAAAAABAAAAAYAEABAAAQA=</HashCode>
+      <FileName>BoostMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCoreMesh" Collapsed="true">
+    <Position X="32" Y="12.75" Width="1.5" />
+    <InheritanceLine Type="CMesh" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="30.25" Y="9.191" />
+        <Point X="30.25" Y="9.45" />
+        <Point X="31.852" Y="9.45" />
+        <Point X="31.852" Y="13.441" />
+        <Point X="32" Y="13.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAABAAAAAEAAAAAAAAAAAABAAAAAwAEABAAAQA=</HashCode>
+      <FileName>CoreMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWeaponMesh" Collapsed="true">
+    <Position X="28.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAAAAAEAAAAAAAAAAAABAEAAAQAEABAAAQA=</HashCode>
+      <FileName>WeaponMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneMesh" Collapsed="true">
+    <Position X="26.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAABAAAAAAAAAAAAAAAAAABAAABAQAEABAAAUA=</HashCode>
+      <FileName>PlaneMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestMesh" Collapsed="true">
+    <Position X="26.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIBAAAAAEABAAAAAAAAAABAAAAAQAEABAAAUA=</HashCode>
+      <FileName>TestMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestDeferredMesh" Collapsed="true">
+    <Position X="28.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABACAAAAAAAAAAAAAAAABAAABAQAEABAAAQA=</HashCode>
+      <FileName>TestDeferredMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkyBoxMesh" Collapsed="true">
+    <Position X="30.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAAAAAAAAAAAAAABAAAAAQCEABQAAQA=</HashCode>
+      <FileName>SkyBoxMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CComponent" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAIAIAIAEAAAAAAgAAAAQAAEAAAgAAEAAAAAgA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnimateComponent" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAgAABQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimateComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRotateComponent" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAUAAAABEAAAAAAAAAAABAA=</HashCode>
+      <FileName>RotateComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameObject" Collapsed="true">
+    <Position X="4.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAKAAAIkRCAEEBEQAEAIAEgAAAAAAgeAAEUA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPart" Collapsed="true">
+    <Position X="4.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgIACAAQAAACAADggAAAAAQIAAAAUAAgAEAAAAQGAEA=</HashCode>
+      <FileName>Part.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFunctionPart" Collapsed="true">
+    <Position X="4.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAIQAAAAAAAAAAAAAAQIAAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FunctionPart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoostPart" Collapsed="true">
+    <Position X="4.75" Y="21.5" Width="1.5" />
+    <InheritanceLine Type="CFunctionPart">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="4.613" Y="11.242" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAAABAAAAAAAAAAAAAEAAAAAQAAAAgAAA=</HashCode>
+      <FileName>BoostPart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWeaponPart" Collapsed="true">
+    <Position X="6.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgACAAA=</HashCode>
+      <FileName>WeaponPart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdaptorPart" Collapsed="true">
+    <Position X="6.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAASAAACIAAAAQAEAAQAAAAAEAAAAEAAEAACAAA=</HashCode>
+      <FileName>AdaptorPart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCore" Collapsed="true">
+    <Position X="4.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAQACACAAAAARAEAAQAAAAAEAAAAAAACAACAAE=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAQAQAAAAAAAAAAgEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLight" Collapsed="true">
+    <Position X="2.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEoAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAQ=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCapsuleLight" Collapsed="true">
+    <Position X="1.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAABkAAAAAAAAAAAAABAAEAAAAAAAAAAABAA=</HashCode>
+      <FileName>CapsuleLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDirectionalLight" Collapsed="true">
+    <Position X="3" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAEAAAAAAAAAAAAAAAAAAAEAACAgAAAAAAAAA=</HashCode>
+      <FileName>DirectionalLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPointLight" Collapsed="true">
+    <Position X="1.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAABAAAAAEAAgAEAAAAAACAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>PointLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSpotLight" Collapsed="true">
+    <Position X="3" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAEAAAAAAAAEAAAgAAAAAAAEAAQACAAAAMACAA=</HashCode>
+      <FileName>SpotLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlane" Collapsed="true">
+    <Position X="6.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAgAAAAAAA=</HashCode>
+      <FileName>Plane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestObject" Collapsed="true">
+    <Position X="8.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAACAAAAAA=</HashCode>
+      <FileName>TestObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkyBox" Collapsed="true">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAEAAAAAAAAACAAQAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>SkyBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObject" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GBUFFER_UNPACKING_DATA" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stCameraBuffer" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stFirstPassCB" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAAAAAAAAAAAAAAAAAAAAAgBAAAAAQAgCAA=</HashCode>
+      <FileName>DownScaleFirstPass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MATERIAL_INFO" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stFinalPassCB" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAgAAAgAAAAA=</HashCode>
+      <FileName>PostProcessingLayer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexPositionColor" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VS_VB_SCREEN" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TestDeferredMesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VS_VB_INSTANCE" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ABILITY_VALUE" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Part.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CAPSULE_LIGHT_DS_CB" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CapsuleLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CAPSULE_LIGHT_PS_CB" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEAAAAAAAAoAAAAIAACAAAAAAAAAA=</HashCode>
+      <FileName>CapsuleLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CAPSULE_LIGHT" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAoAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>CapsuleLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DIRECTIONAL_AMBIENT_LIGHT" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAgAAAAAAAIAAACAAACIAAAAA=</HashCode>
+      <FileName>DirectionalLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="POINT_LIGHT_DS_CB" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PointLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="POINT_LIGHT_PS_CB" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PointLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="POINT_LIGHT" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PointLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SPOT_LIGHT_DS_CB" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAQAAAAAAAAAAAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>SpotLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SPOT_LIGHT_PS_CB" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABKABAAAAAAAAAAEAAAAAgAAAAAAAA=</HashCode>
+      <FileName>SpotLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SPOT_LIGHT" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>SpotLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="mapRenderContainer" Collapsed="true">
+    <Position X="2.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RenderContainer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pairRenderContainer" Collapsed="true">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RenderContainer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pairComponent" Collapsed="true">
+    <Position X="4" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mapComponent" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="object_id" Collapsed="true">
+    <Position X="5.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EKAAAAAAAAAAAIAEoAAAAAACAAAAAAAAAECAAAAxAII=</HashCode>
+      <FileName>stdafx.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="rendercontainer_id" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAIAACAAAAAAAAAAQAAAAAAAAAACEBCABQAACEBA=</HashCode>
+      <FileName>stdafx.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="component_id" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="family_id" Collapsed="true">
+    <Position X="2.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="part_state" Collapsed="true">
+    <Position X="7.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAQAACAAAAAAAA=</HashCode>
+      <FileName>Part.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="light_id" Collapsed="true">
+    <Position X="4" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAABAAgAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
